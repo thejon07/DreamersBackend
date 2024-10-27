@@ -19,7 +19,7 @@ require('dotenv').config();
 //   origin: process.env.CORS_ORIGIN,
 //   credentials: true,
 // }));
-const allowedOrigins = ['https://mangang-football-officials-frontend.vercel.app/'];
+const allowedOrigins = ['https://dreamersoffiicials.onrender.com'];
 
 app.use(cors({
   origin: function (origin, callback) {
