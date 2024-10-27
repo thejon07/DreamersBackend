@@ -19,7 +19,7 @@ require('dotenv').config();
 //   origin: process.env.CORS_ORIGIN,
 //   credentials: true,
 // }));
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['https://mangang-football-officials-frontend.vercel.app/'];
 
 app.use(cors({
   origin: function (origin, callback) {
